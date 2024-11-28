@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile - VRR Green Motors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  </head>
+  <body>
+    <nav>
+      <img src="images/logo.jpg" class="logo" alt="VRR Green Motors Logo">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#single-light">Single Light</a></li>
+        <li><a href="index.html#double-light">Double Light</a></li>
+        <li><a href="index.html#vespa-link">Vespa</a></li>
+      </ul>
+      <a href="#" class="btn" id="reserve-btn">Reserve Now</a>
+    </nav>
+
+      <div class="profile-container">
+        <div class="profile-sidebar">
+            <img src="images/user-avatar.jpg" alt="User Avatar" class="profile-avatar">
+            <div class="profile-details">
+                <h2>John Doe</h2>
+                <p>VRR Green Motors User</p>
+            </div>
+            <div class="referral-points">
+                <span>Referral Points</span>
+                <span class="referral-points-badge">1250</span>
+            </div>
+            <button class="referral-button">Generate Referral Link</button>
+        </div>
+        <div class="profile-main">
+            <div class="referral-tree">
+                <h2>Referral Tree</h2>
+                <div class="tree-container">
+                    <div class="tree-node">
+                        <div class="tree-node-content">John Doe (You)</div>
+                        <div class="tree-branch">
+                            <div class="tree-node">
+                                <div class="tree-connector"></div>
+                                <div class="tree-node-content">Category A</div>
+                                <button class="referral-button">Add Referral A</button>
+                            </div>
+                            <div class="tree-node">
+                                <div class="tree-connector"></div>
+                                <div class="tree-node-content">Category B</div>
+                                <button class="referral-button">Add Referral B</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section about">
+          <h3>About VRR Green Motors</h3>
+          <p>We are committed to providing eco-friendly transportation solutions for a sustainable future.</p>
+          <div class="contact">
+            <span><i class="fas fa-phone"></i> &nbsp; 123-456-789</span>
+            <span><i class="fas fa-envelope"></i> &nbsp; info@vrrgreenmotor.com</span>
+          </div>
+          <div class="socials">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="footer-section links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="profile.html">My Profile</a></li>
+          </ul>
+        </div>
+        <div class="footer-section contact-form">
+          <h3>Contact Us</h3>
+          <form action="#" method="post">
+            <input type="email" name="email" class="text-input contact-input" placeholder="Your email address...">
+            <textarea name="message" class="text-input contact-input" placeholder="Your message..."></textarea>
+            <button type="submit" class="btn btn-big contact-btn">
+              <i class="fas fa-envelope"></i>
+              Send
+            </button>
+          </form>
+        </div>
+        
+      </div>
+      <div class="footer-bottom">
+        &copy; 2024 VRR Green Motors | All rights reserved
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
