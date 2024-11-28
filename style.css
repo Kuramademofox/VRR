@@ -25,7 +25,7 @@ body {
 .header {
   width: 100%;
   height: 100vh;
-  background-image: url('images/simple-energy-select-model-lightx-1684843199469.webp');
+  background-image: url('images/simple-energy.webp');
   background-position: center center;  /* Keeps the image centered */
   background-size: cover;             /* Ensures the image always covers the section */
   padding: 0 7%;
